@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/getEnd
+~MSle0~/new
 
 # Last Substitute Search Pattern:
 ~MSle0&\.tl
@@ -17,14 +17,17 @@
 $\.l
 
 # Command Line History (newest to oldest):
+:wq
 :w
+:e
+:w Task633D.java
+:r Task633D.java
 :q
 :%s/\.tl/\.l/g
 :%s/.tl/.l/g
 :sav Task631D.java
 :e ../codeforces.com/Task631DHash.java
 :%s/source.charAt(pos)/c/g
-:wq
 :e Task631D.java
 :e Task632A.java
 :%s/List/Deque/g
@@ -34,12 +37,11 @@ $\.l
 :e Task650B.java
 :e Task630R.java
 :q!
-:e Task632E.java
-:497
-<r Task1A.java Task620C.java Task620D.java Task620E.java Task624B.java Task625A.java Task625B.java Task625C.java Task626C.java Task630I.java Task632C.java Task632D.java Test.java Task1A.class Task620C\$Tuple.class Task620C.class Task620D\$Res.class Task620D\$Tuple.class Task620D.class Task620E.class Task624B.class Task625A.class Task625B.class Task625C.class Task626C.class Task630I.class Task632C.class Task632D\$Pair.class Task632D\$Res.class Task632D.class Test.class Tree.classask632E.java
-:r Task632E.java
 
 # Search String History (newest to oldest):
+?/new
+?/utf8
+?/mouse
 ?/getEnd
 ? \.tl
 ? .tl
@@ -57,9 +59,6 @@ $\.l
 ? long i = 0
 ? int
 ? List<Res>
-?/xx
-?/zsh
-?/mins
 
 # Expression History (newest to oldest):
 
@@ -104,22 +103,35 @@ $\.l
 "w	CHAR	0
 	ww
 ""-	CHAR	0
-	Integer
+	h
 
 # File marks:
 'M  95  12  ~/dev/github.com/parallelstream/cs-classics/UkkonenSuffixTree.java
-'0  57  26  ~/dev/github.com/parallelstream/codeforces.com/Task631D.java
-'1  7  11  ~/dev/github.com/parallelstream/codeforces.com/Task631D.java
-'2  10  106  ~/dev/github.com/parallelstream/codeforces.com/Task631D.java
-'3  63  57  ~/dev/github.com/parallelstream/codeforces.com/Task631D.java
-'4  11  19  ~/dev/github.com/parallelstream/cs-classics/Task631D.java
-'5  141  0  ~/dev/github.com/parallelstream/cs-classics/UkkonenSuffixTree.java
-'6  1  18  ~/dev/github.com/parallelstream/codeforces.com/Task631D.java
-'7  3  21  ~/dev/github.com/parallelstream/codeforces.com/Task650B.java
-'8  1  0  ~/dev/github.com/parallelstream/codeforces.com/Task650BHash.java
-'9  182  11  ~/dev/github.com/parallelstream/codeforces.com/Task631D.java
+'0  38  72  ~/.tmux.conf
+'1  111  0  ~/.tmux.conf
+'2  15  1  ~/.tmux.conf
+'3  9  74  ~/dev/github.com/parallelstream/codeforces.com/Task633D.java
+'4  9  41  ~/dev/github.com/parallelstream/codeforces.com/Tasj633D.java
+'5  57  26  ~/dev/github.com/parallelstream/codeforces.com/Task631D.java
+'6  7  11  ~/dev/github.com/parallelstream/codeforces.com/Task631D.java
+'7  10  106  ~/dev/github.com/parallelstream/codeforces.com/Task631D.java
+'8  63  57  ~/dev/github.com/parallelstream/codeforces.com/Task631D.java
+'9  11  19  ~/dev/github.com/parallelstream/cs-classics/Task631D.java
 
 # Jumplist (newest first):
+-'  38  72  ~/.tmux.conf
+-'  1  0  ~/.tmux.conf
+-'  111  0  ~/.tmux.conf
+-'  15  1  ~/.tmux.conf
+-'  2  0  ~/.tmux.conf
+-'  9  74  ~/dev/github.com/parallelstream/codeforces.com/Task633D.java
+-'  2  0  ~/dev/github.com/parallelstream/codeforces.com/Task633D.java
+-'  1  0  ~/dev/github.com/parallelstream/codeforces.com/Task633D.java
+-'  9  41  ~/dev/github.com/parallelstream/codeforces.com/Tasj633D.java
+-'  11  0  ~/dev/github.com/parallelstream/codeforces.com/Tasj633D.java
+-'  10  0  ~/dev/github.com/parallelstream/codeforces.com/Tasj633D.java
+-'  4  0  ~/dev/github.com/parallelstream/codeforces.com/Tasj633D.java
+-'  1  0  ~/dev/github.com/parallelstream/codeforces.com/Tasj633D.java
 -'  57  26  ~/dev/github.com/parallelstream/codeforces.com/Task631D.java
 -'  1  0  ~/dev/github.com/parallelstream/codeforces.com/Task631D.java
 -'  7  11  ~/dev/github.com/parallelstream/codeforces.com/Task631D.java
@@ -204,16 +216,51 @@ $\.l
 -'  141  0  ~/dev/github.com/parallelstream/cs-classics/UkkonenSuffixTree.java
 -'  140  0  ~/dev/github.com/parallelstream/cs-classics/UkkonenSuffixTree.java
 -'  131  0  ~/dev/github.com/parallelstream/cs-classics/UkkonenSuffixTree.java
--'  130  0  ~/dev/github.com/parallelstream/cs-classics/UkkonenSuffixTree.java
--'  123  0  ~/dev/github.com/parallelstream/cs-classics/UkkonenSuffixTree.java
--'  122  0  ~/dev/github.com/parallelstream/cs-classics/UkkonenSuffixTree.java
--'  119  0  ~/dev/github.com/parallelstream/cs-classics/UkkonenSuffixTree.java
--'  107  0  ~/dev/github.com/parallelstream/cs-classics/UkkonenSuffixTree.java
--'  106  0  ~/dev/github.com/parallelstream/cs-classics/UkkonenSuffixTree.java
--'  105  0  ~/dev/github.com/parallelstream/cs-classics/UkkonenSuffixTree.java
--'  18  106  ~/dev/github.com/parallelstream/codeforces.com/Task631D.java
 
 # History of marks within files (newest to oldest):
+
+> ~/.tmux.conf
+	"	38	72
+	^	38	73
+	.	38	72
+	+	1	0
+	+	114	0
+	+	1	0
+	+	114	0
+	+	114	0
+	+	113	0
+	+	1	0
+	+	56	30
+	+	60	29
+	+	38	64
+	+	45	0
+	+	46	16
+	+	1	0
+	+	15	1
+	+	81	0
+	+	38	72
+	o	1	0
+
+> ~/dev/github.com/parallelstream/codeforces.com/Task633D.java
+	"	9	74
+	^	9	78
+	.	9	74
+	+	5	59
+	+	9	74
+
+> ~/dev/github.com/parallelstream/codeforces.com/Tasj633D.java
+	"	9	41
+	^	9	42
+	.	9	41
+	+	2	0
+	+	1	16
+	+	6	8
+	+	2	17
+	+	10	5
+	+	11	0
+	+	9	78
+	+	9	108
+	+	9	41
 
 > ~/dev/github.com/parallelstream/codeforces.com/Task631D.java
 	"	57	26
@@ -895,23 +942,6 @@ $\.l
 	+	8	46
 	+	2	15
 	+	8	52
-
-> ~/.tmux.conf
-	"	46	16
-	^	46	1
-	.	46	16
-	+	1	0
-	+	114	0
-	+	1	0
-	+	114	0
-	+	114	0
-	+	113	0
-	+	1	0
-	+	56	30
-	+	60	29
-	+	38	64
-	+	45	0
-	+	46	16
 
 > ~/dev/github.com/parallelstream/codeforces.com/Task620A.java
 	"	1	0
@@ -3910,18 +3940,3 @@ $\.l
 	^	100	8
 	.	100	0
 	+	100	0
-
-> ~/dev/coursera/algo_design/2sum2.txt
-	"	5	3
-	^	5	4
-	.	5	0
-	+	5	0
-
-> ~/dev/coursera/algo_design/2sum1.txt
-	"	4	4
-	^	4	6
-	.	4	5
-	+	1	0
-	+	1	6
-	+	3	1
-	+	4	5
