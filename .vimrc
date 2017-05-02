@@ -1,6 +1,7 @@
 " load up pathogen and all bundles
 call pathogen#infect()
 call pathogen#helptags()
+set encoding=utf-8
 filetype off
 syntax on
 filetype plugin indent on
@@ -49,3 +50,10 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
+set backspace=indent,eol,start
+
+" Mundo stuff
+nnoremap <F5> :MundoToggle<CR>
+nnoremap <F4> :NERDTreeToggle<CR>
+set hlsearch!
+nnoremap <F3> :set hlsearch!<CR>
