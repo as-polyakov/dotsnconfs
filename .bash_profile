@@ -10,5 +10,4 @@ export PATH=$PATH:/opt/apache-maven-3.3.9/bin:$GOPATH/bin:$SCALA_HOME/bin
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 # Finished adapting your PATH environment variable for use with MacPorts.
 
-alias vim=/opt/local/bin/vim
 source ~/.bashrc
